@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -15,12 +16,13 @@
         </section>
 
         <section class="check">
-            <input type="radio" class="round" id="sum">+
-            <input type="radio" class="round" id="minus">-
-            <input type="radio" class="round" id="multi">* 
-            <input type="radio" class="round" id="slash">/
+            <input type="radio" class="round" name='sign-area' value="add" id="box1">+
+            <input type="radio" class="round" name='sign-area' value="subtract" id="box2">-
+            <input type="radio" class="round" name='sign-area' value="multiply" id="box3">* 
+            <input type="radio" class="round" name='sign-area' value="divide" id="box4">/
         </section>
 
+        <!-- outcome() é a function chamada pelo botão lá no script.js -->
         <button type="button" onclick="outcome()" class="cal"><h4>CALCULATE</h4></button>
         <h1 id="resultArea"></h1>
     </div>

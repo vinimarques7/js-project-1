@@ -2,6 +2,7 @@ body{
     background-color: rgb(130, 184, 130);
     display: flex;
     justify-content: center;
+    height: 100%;
 }
 
 .container{
@@ -9,10 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: 23.5vh;
-    height: 50vh;
-    width: 40%;
+    margin-top: 11rem;
     background-color: rgb(51, 48, 48);
     gap: 1.5rem;
 }
@@ -20,13 +18,18 @@ body{
 .input{
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
 }
 
 .cal{
-    background-color: rgb(230, 32, 89);
+    background-color: gray;
     cursor: pointer;
     color: white;
     border-radius: 0.5rem;
+}
+
+.cal:hover{
+    background-color: rgb(230, 32, 89);
 }
 
 .round{
@@ -36,7 +39,7 @@ body{
 
 @media screen and (min-width: 800px) {
     .container{
-        width: 50vw;
+        width: 35vw;
 
     }
 }
