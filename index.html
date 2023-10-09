@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>SIMPLE CALCULATOR</h2>
+        <section class="input">
+            <input type="text" id="num-one">
+            <input type="text" id="num-two">
+        </section>
+
+        <section class="check">
+            <input type="radio" class="round" id="sum">+
+            <input type="radio" class="round" id="minus">-
+            <input type="radio" class="round" id="multi">* 
+            <input type="radio" class="round" id="slash">/
+        </section>
+
+        <button type="button" onclick="outcome()" class="cal"><h4>CALCULATE</h4></button>
+        <h1 id="resultArea"></h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

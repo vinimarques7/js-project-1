@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(130, 184, 130);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 23.5vh;
+    height: 50vh;
+    width: 40%;
+    background-color: rgb(51, 48, 48);
+    gap: 1.5rem;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.cal{
+    background-color: rgb(230, 32, 89);
+    cursor: pointer;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.round{
+    background-color: blue;
+}
+
+
+@media screen and (min-width: 800px) {
+    .container{
+        width: 50vw;
+
+    }
+}
